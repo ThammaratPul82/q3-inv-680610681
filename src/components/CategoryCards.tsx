@@ -41,7 +41,7 @@ export function CategoryCards() {
           // Use Card component to display values by category
           <Card className="w-full max-w-xs">
       <CardHeader className="border-b">
-        <CardTitle></CardTitle>
+        <CardTitle>{category.label}</CardTitle>
         <CardDescription>
           
         </CardDescription>
