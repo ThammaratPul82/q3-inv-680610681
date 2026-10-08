@@ -45,6 +45,7 @@ export function ItemList() {
               </TableRow>
             ) : (
               // replace the following hardcoded row with the dynamic mapping of data items
+              
               <TableRow>
                 <TableCell>
                   <Badge variant="outline">Electronics</Badge>
